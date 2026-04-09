@@ -1,0 +1,6 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) gcc/11.3.1   2) mpi/openmpi/4.1.6   3) StdEnv
+mkdir: cannot create directory ‘/scratch’: Permission denied
+slurmstepd: error: *** JOB 33261 ON c01 CANCELLED AT 2026-04-09T17:00:56 ***
