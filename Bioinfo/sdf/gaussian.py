@@ -6,7 +6,7 @@ import re
 
 # ---- Your desired Gaussian header (WITHOUT charge/multiplicity) ----
 NEW_HEADER = """%nprocshared=8
-%mem=14GB
+%mem=16GB
 # opt b3lyp/6-31g(d,p)
 
 """

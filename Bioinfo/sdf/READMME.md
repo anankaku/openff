@@ -1,6 +1,7 @@
 ## Can OpenFF accurately capture the conformational preferences of peptoids, especially their backbone torsions and cis/trans amide behavior, compared with QM reference data?
 
 ### create openff env
+- jupyter notebook: `1_read_sdf.py`
 ```bash
 conda create -n openff_env python=3.10 -y
 conda activate openff_env
@@ -91,6 +92,31 @@ python gaussian.py
 ```
 - submit the input file
 ```bash
-sbatch opt_QM.sh
+sbatch run_single.sh /file/name.com
 ```
 ### scan dihedral with Gaussian
+
+- assign dihedral
+- example:
+```bash
+%nprocshared=8
+%mem=16GB
+# opt=modredundant b3lyp/6-31g(d,p)
+
+QM dihedral opt
+
+0 1
+ C                  0.70644900   -2.74280700   -0.00609300
+ C                  1.81039800   -1.76208300    0.35536100
+ O                  2.89271900   -2.17414000    0.77667500
+......
+......
+......
+ H                  6.99802400    0.92863900   -0.71248500
+
+D 2 4 18 19 S 36 10.000000 # scan dihedral 36 steps with each 10 degree
+```
+- submit multiple job
+```bash
+bash run_all.sh
+```
