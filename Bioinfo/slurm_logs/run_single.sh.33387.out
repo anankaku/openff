@@ -1,40 +1,46 @@
 ===================================================
-Begin TASK Prologue Fri Apr 10 12:55:05 PM EDT 2026
+Begin TASK Prologue Wed Apr 15 04:34:44 PM EDT 2026
 ===================================================
-Job ID:           33276
+Job ID:           33387
 Username:         tuu61186
 Group:            icms
-Job Name:         s06phi_psi
+Job Name:         run_single.sh
 Resources List:   nodes=1:ppn=8:ntasks=1
 Queue:            normal
 Account:          default
 Nodes:      c01
 ===================================================
-End TASK Prologue Fri Apr 10 12:55:05 PM EDT 2026
+End TASK Prologue Wed Apr 15 04:34:44 PM EDT 2026
 ===================================================
-Running s06phi_psi.com
-Job ID: 33276
+Running sdf/s00.com
+Job ID: 33387
 Node: c01
 CPUs: 8
-Start: Fri Apr 10 12:55:06 PM EDT 2026
+Start: Wed Apr 15 04:34:44 PM EDT 2026
 
-starting g09 C01 job 's06phi_psi' from 
+starting g09 C01 job 's00' from 
 
 submitting job to queue 'normal'
 working directory is set to '/home/tuu61186/openff/Bioinfo'
-sending output to '/home/tuu61186/openff/Bioinfo/s06phi_psi.log'
+sending output to '/home/tuu61186/openff/Bioinfo/sdf/s00.log'
 nice is set to 19
 
+job /home/tuu61186/openff/Bioinfo/sdf/s00 finished with exit status 0
+
+cleaning up in /tmp/g09-tuu61186-14396808992ad8ea4x
+
+removed directory '/tmp/g09-tuu61186-14396808992ad8ea4x'
+End: Wed Apr 15 04:37:44 PM EDT 2026
 ===================================================
-Begin TASK Epilogue Fri Apr 10 08:55:33 PM EDT 2026
+Begin TASK Epilogue Wed Apr 15 04:37:44 PM EDT 2026
 ===================================================
-Job ID:           33276
+Job ID:           33387
 Username:         tuu61186
-Job Name:         s06phi_psi
+Job Name:         run_single.sh
 Resources List:   nodes=1:ppn=8:ntasks=1
 Queue:            normal
 Account:          default
 Nodes:      c01
 ===================================================
-End TASK Epilogue Fri Apr 10 08:55:33 PM EDT 2026
+End TASK Epilogue Wed Apr 15 04:37:44 PM EDT 2026
 ===================================================

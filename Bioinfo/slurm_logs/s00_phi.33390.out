@@ -1,0 +1,27 @@
+===================================================
+Begin TASK Prologue Thu Apr 16 09:40:36 AM EDT 2026
+===================================================
+Job ID:           33390
+Username:         tuu61186
+Group:            icms
+Job Name:         s00_phi
+Resources List:   nodes=1:ppn=8:ntasks=1
+Queue:            normal
+Account:          default
+Nodes:      c01
+===================================================
+End TASK Prologue Thu Apr 16 09:40:36 AM EDT 2026
+===================================================
+Running s00_phi.com
+Job ID: 33390
+Node: c01
+CPUs: 8
+Start: Thu Apr 16 09:40:36 AM EDT 2026
+
+starting g09 C01 job 's00_phi' from 
+
+submitting job to queue 'normal'
+working directory is set to '/home/tuu61186/openff/Bioinfo'
+sending output to '/home/tuu61186/openff/Bioinfo/s00_phi.log'
+nice is set to 19
+

@@ -1,4 +1,5 @@
 ## Can OpenFF accurately capture the conformational preferences of peptoids, especially their backbone torsions and cis/trans amide behavior, compared with QM reference data?
+- the project aims to understand if openff can descibe peptoid which is
 
 ### create openff env
 - jupyter notebook: `1_read_sdf.py`

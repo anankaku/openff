@@ -1,0 +1,46 @@
+===================================================
+Begin TASK Prologue Tue Apr 14 09:42:09 PM EDT 2026
+===================================================
+Job ID:           33370
+Username:         tuu61186
+Group:            icms
+Job Name:         HCl_B3LYP
+Resources List:   nodes=1:ppn=4:ntasks=1
+Queue:            normal
+Account:          default
+Nodes:      c01
+===================================================
+End TASK Prologue Tue Apr 14 09:42:09 PM EDT 2026
+===================================================
+Running HCl_B3LYP.com
+Job ID: 33370
+Node: c01
+CPUs: 4
+Start: Tue Apr 14 09:42:09 PM EDT 2026
+
+starting g09 C01 job 'HCl_B3LYP' from 
+
+submitting job to queue 'normal'
+working directory is set to '/home/tuu61186/openff'
+sending output to '/home/tuu61186/openff/HCl_B3LYP.log'
+nice is set to 19
+
+job /home/tuu61186/openff/HCl_B3LYP finished with exit status 0
+
+cleaning up in /tmp/g09-tuu61186-1341587fea2dfb32ex
+
+removed directory '/tmp/g09-tuu61186-1341587fea2dfb32ex'
+End: Tue Apr 14 09:42:28 PM EDT 2026
+===================================================
+Begin TASK Epilogue Tue Apr 14 09:42:28 PM EDT 2026
+===================================================
+Job ID:           33370
+Username:         tuu61186
+Job Name:         HCl_B3LYP
+Resources List:   nodes=1:ppn=4:ntasks=1
+Queue:            normal
+Account:          default
+Nodes:      c01
+===================================================
+End TASK Epilogue Tue Apr 14 09:42:28 PM EDT 2026
+===================================================

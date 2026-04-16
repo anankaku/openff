@@ -1,0 +1,285 @@
+ Entering Gaussian System, Link 0=/data/opt/apps/g09-C01/g09
+ Initial command:
+ /data/opt/apps/g09-C01/l1.exe /tmp/g09-tuu61186-1348039ca8c7a1f4dx/Gau-1348109.inp -scrdir=/tmp/g09-tuu61186-1348039ca8c7a1f4dx/
+ Entering Link 1 = /data/opt/apps/g09-C01/l1.exe PID=   1348111.
+  
+ Copyright (c) 1988,1990,1992,1993,1995,1998,2003,2009,2011,
+            Gaussian, Inc.  All Rights Reserved.
+  
+ This is part of the Gaussian(R) 09 program.  It is based on
+ the Gaussian(R) 03 system (copyright 2003, Gaussian, Inc.),
+ the Gaussian(R) 98 system (copyright 1998, Gaussian, Inc.),
+ the Gaussian(R) 94 system (copyright 1995, Gaussian, Inc.),
+ the Gaussian 92(TM) system (copyright 1992, Gaussian, Inc.),
+ the Gaussian 90(TM) system (copyright 1990, Gaussian, Inc.),
+ the Gaussian 88(TM) system (copyright 1988, Gaussian, Inc.),
+ the Gaussian 86(TM) system (copyright 1986, Carnegie Mellon
+ University), and the Gaussian 82(TM) system (copyright 1983,
+ Carnegie Mellon University). Gaussian is a federally registered
+ trademark of Gaussian, Inc.
+  
+ This software contains proprietary and confidential information,
+ including trade secrets, belonging to Gaussian, Inc.
+  
+ This software is provided under written license and may be
+ used, copied, transmitted, or stored only in accord with that
+ written license.
+  
+ The following legend is applicable only to US Government
+ contracts under FAR:
+  
+                    RESTRICTED RIGHTS LEGEND
+  
+ Use, reproduction and disclosure by the US Government is
+ subject to restrictions as set forth in subparagraphs (a)
+ and (c) of the Commercial Computer Software - Restricted
+ Rights clause in FAR 52.227-19.
+  
+ Gaussian, Inc.
+ 340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
+  
+  
+ ---------------------------------------------------------------
+ Warning -- This program may not be used in any manner that
+ competes with the business of Gaussian, Inc. or will provide
+ assistance to any competitor of Gaussian, Inc.  The licensee
+ of this program is prohibited from giving any competitor of
+ Gaussian, Inc. access to this program.  By using this program,
+ the user acknowledges that Gaussian, Inc. is engaged in the
+ business of creating and licensing software in the field of
+ computational chemistry and represents and warrants to the
+ licensee that it is not a competitor of Gaussian, Inc. and that
+ it will not use this program in any manner prohibited above.
+ ---------------------------------------------------------------
+  
+
+ Cite this work as:
+ Gaussian 09, Revision C.01,
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
+ M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, B. Mennucci, 
+ G. A. Petersson, H. Nakatsuji, M. Caricato, X. Li, H. P. Hratchian, 
+ A. F. Izmaylov, J. Bloino, G. Zheng, J. L. Sonnenberg, M. Hada, 
+ M. Ehara, K. Toyota, R. Fukuda, J. Hasegawa, M. Ishida, T. Nakajima, 
+ Y. Honda, O. Kitao, H. Nakai, T. Vreven, J. A. Montgomery, Jr., 
+ J. E. Peralta, F. Ogliaro, M. Bearpark, J. J. Heyd, E. Brothers, 
+ K. N. Kudin, V. N. Staroverov, T. Keith, R. Kobayashi, J. Normand, 
+ K. Raghavachari, A. Rendell, J. C. Burant, S. S. Iyengar, J. Tomasi, 
+ M. Cossi, N. Rega, J. M. Millam, M. Klene, J. E. Knox, J. B. Cross, 
+ V. Bakken, C. Adamo, J. Jaramillo, R. Gomperts, R. E. Stratmann, 
+ O. Yazyev, A. J. Austin, R. Cammi, C. Pomelli, J. W. Ochterski, 
+ R. L. Martin, K. Morokuma, V. G. Zakrzewski, G. A. Voth, 
+ P. Salvador, J. J. Dannenberg, S. Dapprich, A. D. Daniels, 
+ O. Farkas, J. B. Foresman, J. V. Ortiz, J. Cioslowski, 
+ and D. J. Fox, Gaussian, Inc., Wallingford CT, 2010.
+ 
+ ******************************************
+ Gaussian 09:  EM64L-G09RevC.01 23-Sep-2011
+                14-Apr-2026 
+ ******************************************
+ %mem=1GB
+ %nprocshared=6
+ Will use up to    6 processors via shared memory.
+ %chk=HCl_B3LYP_chelpg.chk
+ ------------------------------------------
+ # b3lyp/aug-cc-pvtz Pop=(ChelpG,ESPDipole)
+ ------------------------------------------
+ 1/38=1/1;
+ 2/12=2,17=6,18=5,40=1/2;
+ 3/5=16,6=1,7=10,11=2,16=1,25=1,30=1,74=-5/1,2,3;
+ 4//1;
+ 5/5=2,38=5/2;
+ 6/7=2,8=2,9=2,10=2,15=24,20=3,28=1/1,2;
+ 99/5=1,9=1/99;
+ -------------------
+ Title Card Required
+ -------------------
+ Charge =  0 Multiplicity = 1
+ Symbolic Z-Matrix:
+ Cl                    0.        0.        0.07131 
+ H                     0.        0.       -1.21219 
+ 
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1         17           0        0.000000    0.000000    0.071305
+      2          1           0        0.000000    0.000000   -1.212188
+ ---------------------------------------------------------------------
+ Stoichiometry    ClH
+ Framework group  C*V[C*(HCl)]
+ Deg. of freedom     1
+ Full point group                 C*V     NOp   4
+ Largest Abelian subgroup         C2V     NOp   4
+ Largest concise Abelian subgroup C1      NOp   1
+                         Standard orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1         17           0        0.000000    0.000000    0.071305
+      2          1           0        0.000000    0.000000   -1.212188
+ ---------------------------------------------------------------------
+ Rotational constants (GHZ):      0.0000000    313.1732911    313.1732911
+ Standard basis: Aug-CC-pVTZ (5D, 7F)
+ There are    32 symmetry adapted basis functions of A1  symmetry.
+ There are     7 symmetry adapted basis functions of A2  symmetry.
+ There are    17 symmetry adapted basis functions of B1  symmetry.
+ There are    17 symmetry adapted basis functions of B2  symmetry.
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned on.
+    73 basis functions,   141 primitive gaussians,    84 cartesian basis functions
+     9 alpha electrons        9 beta electrons
+       nuclear repulsion energy         7.0090078762 Hartrees.
+ NAtoms=    2 NActive=    2 NUniq=    2 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ One-electron integrals computed using PRISM.
+ NBasis=    73 RedAO= T  NBF=    32     7    17    17
+ NBsUse=    73 1.00D-06 NBFU=    32     7    17    17
+ Harris functional with IExCor=  402 diagonalized for initial guess.
+ ExpMin= 2.53D-02 ExpMax= 4.56D+05 ExpMxC= 1.44D+03 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ HarFok:  IExCor=  402 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1
+ ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         Omega=  0.000000  0.000000  1.000000  0.000000  0.000000 ICntrl=     500 IOpCl=  0
+         NMat0=    1 NMatS0=    1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+         I1Cent=           4 NGrid=           0.
+ Petite list used in FoFCou.
+ Initial guess orbital symmetries:
+       Occupied  (SG) (SG) (SG) (PI) (PI) (SG) (SG) (PI) (PI)
+       Virtual   (SG) (SG) (SG) (PI) (PI) (SG) (PI) (PI) (DLTA)
+                 (DLTA) (SG) (PI) (PI) (SG) (SG) (PI) (PI) (SG)
+                 (PI) (PI) (DLTA) (DLTA) (DLTA) (DLTA) (SG) (PI)
+                 (PI) (SG) (PHI) (PHI) (PI) (PI) (SG) (DLTA) (DLTA)
+                 (SG) (PI) (PI) (SG) (DLTA) (DLTA) (SG) (PI) (PI)
+                 (PI) (PI) (SG) (PI) (PI) (PHI) (PHI) (DLTA) (DLTA)
+                 (SG) (SG) (DLTA) (DLTA) (PI) (PI) (PI) (PI) (SG)
+                 (SG) (SG)
+ The electronic state of the initial guess is 1-SG.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ Keep R1 ints in memory in canonical form, NReq=8371914.
+ SCF Done:  E(RB3LYP) =  -460.844264206     A.U. after    8 cycles
+             Convg  =    0.1039D-08             -V/T =  2.0028
+
+ **********************************************************************
+
+            Population analysis using the SCF density.
+
+ **********************************************************************
+
+ Orbital symmetries:
+       Occupied  (SG) (SG) (SG) (PI) (PI) (SG) (SG) (PI) (PI)
+       Virtual   (SG) (SG) (SG) (PI) (PI) (SG) (PI) (PI) (DLTA)
+                 (DLTA) (SG) (PI) (PI) (SG) (SG) (PI) (PI) (SG)
+                 (PI) (PI) (DLTA) (DLTA) (DLTA) (DLTA) (SG) (PI)
+                 (PI) (SG) (PHI) (PHI) (PI) (PI) (SG) (DLTA) (DLTA)
+                 (PI) (PI) (SG) (SG) (DLTA) (DLTA) (SG) (PI) (PI)
+                 (PI) (PI) (SG) (PI) (PI) (PHI) (PHI) (DLTA) (DLTA)
+                 (SG) (SG) (DLTA) (DLTA) (PI) (PI) (PI) (PI) (SG)
+                 (SG) (SG)
+ The electronic state is 1-SG.
+ Alpha  occ. eigenvalues -- -101.57331  -9.47889  -7.24175  -7.23311  -7.23311
+ Alpha  occ. eigenvalues --   -0.85120  -0.47816  -0.33930  -0.33930
+ Alpha virt. eigenvalues --   -0.02796   0.04014   0.05480   0.06240   0.06240
+ Alpha virt. eigenvalues --    0.11106   0.14428   0.14428   0.22163   0.22163
+ Alpha virt. eigenvalues --    0.25112   0.32127   0.32127   0.32973   0.47229
+ Alpha virt. eigenvalues --    0.48236   0.48236   0.52658   0.68065   0.68065
+ Alpha virt. eigenvalues --    0.69489   0.69489   0.73979   0.73980   0.75158
+ Alpha virt. eigenvalues --    0.80326   0.80326   0.90373   0.98834   0.98834
+ Alpha virt. eigenvalues --    1.10009   1.10009   1.10911   1.18185   1.18185
+ Alpha virt. eigenvalues --    1.54035   1.54035   1.54640   1.61274   2.16803
+ Alpha virt. eigenvalues --    2.16803   2.16865   2.21570   2.21570   2.48051
+ Alpha virt. eigenvalues --    2.48051   2.59411   2.69176   2.69176   2.71589
+ Alpha virt. eigenvalues --    2.71589   2.73167   2.73167   2.95028   3.25760
+ Alpha virt. eigenvalues --    3.61527   3.61527   4.08152   4.08152   4.14500
+ Alpha virt. eigenvalues --    4.14500   4.38411   4.77179   7.01018
+          Condensed to atoms (all electrons):
+              1          2
+     1  Cl  16.788131   0.356667
+     2  H    0.356667   0.498535
+ Mulliken atomic charges:
+              1
+     1  Cl  -0.144798
+     2  H    0.144798
+ Sum of Mulliken atomic charges =   0.00000
+ Mulliken charges with hydrogens summed into heavy atoms:
+              1
+     1  Cl   0.000000
+ Sum of Mulliken charges with hydrogens summed into heavy atoms =   0.00000
+ Electronic spatial extent (au):  <R**2>=             34.3782
+ Charge=              0.0000 electrons
+ Dipole moment (field-independent basis, Debye):
+    X=              0.0000    Y=              0.0000    Z=             -1.1155  Tot=              1.1155
+ Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=            -14.1139   YY=            -14.1139   ZZ=            -10.5391
+   XY=              0.0000   XZ=              0.0000   YZ=              0.0000
+ Traceless Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=             -1.1916   YY=             -1.1916   ZZ=              2.3832
+   XY=              0.0000   XZ=              0.0000   YZ=              0.0000
+ Octapole moment (field-independent basis, Debye-Ang**2):
+  XXX=              0.0000  YYY=              0.0000  ZZZ=             -2.4275  XYY=              0.0000
+  XXY=              0.0000  XXZ=             -0.0122  XZZ=              0.0000  YZZ=              0.0000
+  YYZ=             -0.0122  XYZ=              0.0000
+ Hexadecapole moment (field-independent basis, Debye-Ang**3):
+ XXXX=            -17.1709 YYYY=            -17.1709 ZZZZ=            -14.6433 XXXY=              0.0000
+ XXXZ=              0.0000 YYYX=              0.0000 YYYZ=              0.0000 ZZZX=              0.0000
+ ZZZY=              0.0000 XXYY=             -5.7237 XXZZ=             -6.0756 YYZZ=             -6.0756
+ XXYZ=              0.0000 YYXZ=              0.0000 ZZXY=              0.0000
+ N-N= 7.009007876186D+00 E-N=-1.109371993842D+03  KE= 4.595648933795D+02
+ Symmetry A1   KE= 3.681960503003D+02
+ Symmetry A2   KE= 2.075856909803D-51
+ Symmetry B1   KE= 4.568442153959D+01
+ Symmetry B2   KE= 4.568442153959D+01
+ Breneman (CHELPG) radii used.
+ Generate Potential Derived Charges using the Breneman model, NDens= 1.
+ Grid spacing= 0.300 Box extension= 2.800
+ NStep X,Y,Z=   20     20     24   Total possible points=        9600
+ Number of Points to Fit=    3168
+
+ **********************************************************************
+
+            Electrostatic Properties Using The SCF Density
+
+ **********************************************************************
+
+       Atomic Center    1 is at   0.000000  0.000000  0.071305
+       Atomic Center    2 is at   0.000000  0.000000 -1.212188
+    3168 points will be used for fitting atomic charges
+ Fitting point charges to electrostatic potential
+ The dipole moment will be constrained to the correct value
+ Charges from ESP fit, RMS=   0.00605 RRMS=   0.43631:
+ Charge=   0.00000 Dipole=     0.0000     0.0000    -1.1155 Tot=     1.1155
+              1
+     1  Cl  -0.180942
+     2  H    0.180942
+ Charges from ESP fit with hydrogens summed into heavy atoms:
+              1
+     1  Cl   0.000000
+     2  H    0.000000
+ -----------------------------------------------------------------
+
+              Electrostatic Properties (Atomic Units)
+
+ -----------------------------------------------------------------
+    Center     Electric         -------- Electric Field --------
+               Potential          X             Y             Z
+ -----------------------------------------------------------------
+    1 Atom    -64.376744
+    2 Atom     -0.949295
+ -----------------------------------------------------------------
+ 1\1\GINC-C01\SP\RB3LYP\Aug-CC-pVTZ\Cl1H1\TUU61186\14-Apr-2026\0\\# b3l
+ yp/aug-cc-pvtz Pop=(ChelpG,ESPDipole)\\Title Card Required\\0,1\Cl,0,0
+ .,0.,0.071305\H,0,0.,0.,-1.212188\\Version=EM64L-G09RevC.01\State=1-SG
+ \HF=-460.8442642\RMSD=1.039e-09\Dipole=0.,0.,-0.4388656\Quadrupole=-0.
+ 8859113,-0.8859113,1.7718226,0.,0.,0.\PG=C*V [C*(H1Cl1)]\\@
+
+
+ THE ATTENTION SPAN OF A COMPUTER IS AS LONG
+ AS ITS EXTENSION CORD.
+ Job cpu time:  0 days  0 hours  0 minutes  3.5 seconds.
+ File lengths (MBytes):  RWF=      5 Int=      0 D2E=      0 Chk=      1 Scr=      1
+ Normal termination of Gaussian 09 at Tue Apr 14 22:41:39 2026.

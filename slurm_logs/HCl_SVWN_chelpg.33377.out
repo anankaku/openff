@@ -1,0 +1,46 @@
+===================================================
+Begin TASK Prologue Tue Apr 14 10:41:38 PM EDT 2026
+===================================================
+Job ID:           33377
+Username:         tuu61186
+Group:            icms
+Job Name:         HCl_SVWN_chelpg
+Resources List:   nodes=1:ppn=6:ntasks=1
+Queue:            normal
+Account:          default
+Nodes:      c01
+===================================================
+End TASK Prologue Tue Apr 14 10:41:38 PM EDT 2026
+===================================================
+Running HCl_SVWN_chelpg.com
+Job ID: 33377
+Node: c01
+CPUs: 6
+Start: Tue Apr 14 10:41:38 PM EDT 2026
+
+starting g09 C01 job 'HCl_SVWN_chelpg' from 
+
+submitting job to queue 'normal'
+working directory is set to '/home/tuu61186/openff'
+sending output to '/home/tuu61186/openff/HCl_SVWN_chelpg.log'
+nice is set to 19
+
+job /home/tuu61186/openff/HCl_SVWN_chelpg finished with exit status 0
+
+cleaning up in /tmp/g09-tuu61186-1348040ca8c7a1f4dx
+
+removed directory '/tmp/g09-tuu61186-1348040ca8c7a1f4dx'
+End: Tue Apr 14 10:41:39 PM EDT 2026
+===================================================
+Begin TASK Epilogue Tue Apr 14 10:41:39 PM EDT 2026
+===================================================
+Job ID:           33377
+Username:         tuu61186
+Job Name:         HCl_SVWN_chelpg
+Resources List:   nodes=1:ppn=6:ntasks=1
+Queue:            normal
+Account:          default
+Nodes:      c01
+===================================================
+End TASK Epilogue Tue Apr 14 10:41:39 PM EDT 2026
+===================================================

@@ -1,5 +1,5 @@
 %nprocshared=8
-%mem=14GB
+%mem=16GB
 # opt b3lyp/6-31g(d,p)
 
 QM dihedral opt
