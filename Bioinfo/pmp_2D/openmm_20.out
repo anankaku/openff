@@ -1,0 +1,35 @@
+===================================================
+Begin TASK Prologue Thu Apr 23 10:40:13 PM EDT 2026
+===================================================
+Job ID:           33671
+Username:         tuu61186
+Group:            icms
+Job Name:         openmm_md
+Resources List:   nodes=1:ppn=4:ntasks=1
+Queue:            gpu
+Account:          default
+Nodes:      g03
+===================================================
+End TASK Prologue Thu Apr 23 10:40:13 PM EDT 2026
+===================================================
+Running conformer 0
+Running conformer 1
+Running conformer 2
+Running conformer 3
+Running conformer 4
+Running conformer 5
+Running conformer 6
+All conformer MD runs finished.
+===================================================
+Begin TASK Epilogue Thu Apr 23 10:40:58 PM EDT 2026
+===================================================
+Job ID:           33671
+Username:         tuu61186
+Job Name:         openmm_md
+Resources List:   nodes=1:ppn=4:ntasks=1
+Queue:            gpu
+Account:          default
+Nodes:      g03
+===================================================
+End TASK Epilogue Thu Apr 23 10:40:58 PM EDT 2026
+===================================================

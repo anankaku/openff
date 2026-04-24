@@ -1,0 +1,27 @@
+===================================================
+Begin TASK Prologue Fri Apr 24 12:22:10 PM EDT 2026
+===================================================
+Job ID:           33716
+Username:         tuu61186
+Group:            icms
+Job Name:         pmp_2d_16
+Resources List:   nodes=1:ppn=8:ntasks=1
+Queue:            normal
+Account:          default
+Nodes:      c01
+===================================================
+End TASK Prologue Fri Apr 24 12:22:10 PM EDT 2026
+===================================================
+Running pmp_2d_16.com
+Job ID: 33716
+Node: c01
+CPUs: 8
+Start: Fri Apr 24 12:22:10 PM EDT 2026
+
+starting g09 C01 job 'pmp_2d_16' from 
+
+submitting job to queue 'normal'
+working directory is set to '/home/tuu61186/openff/Bioinfo/pmp_2D'
+sending output to '/home/tuu61186/openff/Bioinfo/pmp_2D/pmp_2d_16.log'
+nice is set to 19
+

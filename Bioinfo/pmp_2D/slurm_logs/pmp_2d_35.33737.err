@@ -1,0 +1,5 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) gcc/11.3.1   2) mpi/openmpi/4.1.6   3) StdEnv
+mkdir: cannot create directory ‘/scratch’: Permission denied

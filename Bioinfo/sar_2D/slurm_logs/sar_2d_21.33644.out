@@ -1,0 +1,46 @@
+===================================================
+Begin TASK Prologue Thu Apr 23 09:58:11 PM EDT 2026
+===================================================
+Job ID:           33644
+Username:         tuu61186
+Group:            icms
+Job Name:         sar_2d_21
+Resources List:   nodes=1:ppn=8:ntasks=1
+Queue:            normal
+Account:          default
+Nodes:      c10
+===================================================
+End TASK Prologue Thu Apr 23 09:58:11 PM EDT 2026
+===================================================
+Running sar_2d_21.com
+Job ID: 33644
+Node: c10
+CPUs: 8
+Start: Thu Apr 23 09:58:11 PM EDT 2026
+
+starting g09 C01 job 'sar_2d_21' from 
+
+submitting job to queue 'normal'
+working directory is set to '/home/tuu61186/openff/Bioinfo/sar_2D'
+sending output to '/home/tuu61186/openff/Bioinfo/sar_2D/sar_2d_21.log'
+nice is set to 19
+
+job /home/tuu61186/openff/Bioinfo/sar_2D/sar_2d_21 finished with exit status 0
+
+cleaning up in /tmp/g09-tuu61186-89683594aa22ee0cx
+
+removed directory '/tmp/g09-tuu61186-89683594aa22ee0cx'
+End: Thu Apr 23 11:05:32 PM EDT 2026
+===================================================
+Begin TASK Epilogue Thu Apr 23 11:05:32 PM EDT 2026
+===================================================
+Job ID:           33644
+Username:         tuu61186
+Job Name:         sar_2d_21
+Resources List:   nodes=1:ppn=8:ntasks=1
+Queue:            normal
+Account:          default
+Nodes:      c10
+===================================================
+End TASK Epilogue Thu Apr 23 11:05:32 PM EDT 2026
+===================================================
