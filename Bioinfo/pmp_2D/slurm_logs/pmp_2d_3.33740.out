@@ -25,3 +25,22 @@ working directory is set to '/home/tuu61186/openff/Bioinfo/pmp_2D'
 sending output to '/home/tuu61186/openff/Bioinfo/pmp_2D/pmp_2d_3.log'
 nice is set to 19
 
+job /home/tuu61186/openff/Bioinfo/pmp_2D/pmp_2d_3 finished with exit status 0
+
+cleaning up in /tmp/g09-tuu61186-1150922c21e64fea8x
+
+removed directory '/tmp/g09-tuu61186-1150922c21e64fea8x'
+End: Fri Apr 24 01:55:40 PM EDT 2026
+===================================================
+Begin TASK Epilogue Fri Apr 24 01:55:40 PM EDT 2026
+===================================================
+Job ID:           33740
+Username:         tuu61186
+Job Name:         pmp_2d_3
+Resources List:   nodes=1:ppn=8:ntasks=1
+Queue:            normal
+Account:          default
+Nodes:      c12
+===================================================
+End TASK Epilogue Fri Apr 24 01:55:40 PM EDT 2026
+===================================================

@@ -25,3 +25,22 @@ working directory is set to '/home/tuu61186/openff/Bioinfo/sar_2D'
 sending output to '/home/tuu61186/openff/Bioinfo/sar_2D/sar_2d_1.log'
 nice is set to 19
 
+job /home/tuu61186/openff/Bioinfo/sar_2D/sar_2d_1 finished with exit status 0
+
+cleaning up in /tmp/g09-tuu61186-1099773ede083eca8x
+
+removed directory '/tmp/g09-tuu61186-1099773ede083eca8x'
+End: Fri Apr 24 01:16:39 PM EDT 2026
+===================================================
+Begin TASK Epilogue Fri Apr 24 01:16:39 PM EDT 2026
+===================================================
+Job ID:           33747
+Username:         tuu61186
+Job Name:         run_single.sh
+Resources List:   nodes=1:ppn=8:ntasks=1
+Queue:            normal
+Account:          default
+Nodes:      c13
+===================================================
+End TASK Epilogue Fri Apr 24 01:16:39 PM EDT 2026
+===================================================

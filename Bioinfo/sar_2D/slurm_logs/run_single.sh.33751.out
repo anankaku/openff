@@ -1,0 +1,40 @@
+===================================================
+Begin TASK Prologue Fri Apr 24 03:14:27 PM EDT 2026
+===================================================
+Job ID:           33751
+Username:         tuu61186
+Group:            icms
+Job Name:         run_single.sh
+Resources List:   nodes=1:ppn=8:ntasks=1
+Queue:            normal
+Account:          default
+Nodes:      c01
+===================================================
+End TASK Prologue Fri Apr 24 03:14:27 PM EDT 2026
+===================================================
+Running sar_2d_2.com
+Job ID: 33751
+Node: c01
+CPUs: 8
+Start: Fri Apr 24 03:14:27 PM EDT 2026
+
+starting g09 C01 job 'sar_2d_2' from 
+
+submitting job to queue 'normal'
+working directory is set to '/home/tuu61186/openff/Bioinfo/sar_2D'
+sending output to '/home/tuu61186/openff/Bioinfo/sar_2D/sar_2d_2.log'
+nice is set to 19
+
+===================================================
+Begin TASK Epilogue Fri Apr 24 03:17:00 PM EDT 2026
+===================================================
+Job ID:           33751
+Username:         tuu61186
+Job Name:         run_single.sh
+Resources List:   nodes=1:ppn=8:ntasks=1
+Queue:            normal
+Account:          default
+Nodes:      c01
+===================================================
+End TASK Epilogue Fri Apr 24 03:17:00 PM EDT 2026
+===================================================
