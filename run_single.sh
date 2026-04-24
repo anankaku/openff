@@ -7,6 +7,7 @@
 #SBATCH --mem=1G
 #SBATCH --time=08:00:00
 #SBATCH --partition=normal
+#SBATCH --reservation=reservation_statherm
 
 cd "$SLURM_SUBMIT_DIR"
 

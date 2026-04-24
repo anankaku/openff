@@ -1,0 +1,27 @@
+===================================================
+Begin TASK Prologue Thu Apr 23 08:52:06 PM EDT 2026
+===================================================
+Job ID:           33594
+Username:         tuu61186
+Group:            icms
+Job Name:         openmm_md
+Resources List:   nodes=1:ppn=4:ntasks=1
+Queue:            gpu
+Account:          default
+Nodes:      g03
+===================================================
+End TASK Prologue Thu Apr 23 08:52:06 PM EDT 2026
+===================================================
+===================================================
+Begin TASK Epilogue Thu Apr 23 08:52:33 PM EDT 2026
+===================================================
+Job ID:           33594
+Username:         tuu61186
+Job Name:         openmm_md
+Resources List:   nodes=1:ppn=4:ntasks=1
+Queue:            gpu
+Account:          default
+Nodes:      g03
+===================================================
+End TASK Epilogue Thu Apr 23 08:52:33 PM EDT 2026
+===================================================

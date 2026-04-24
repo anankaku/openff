@@ -1,0 +1,62 @@
+===================================================
+Begin TASK Prologue Thu Apr 23 08:42:19 PM EDT 2026
+===================================================
+Job ID:           33590
+Username:         tuu61186
+Group:            icms
+Job Name:         test_openmm_cuda
+Resources List:   nodes=1:ppn=1:ntasks=
+Queue:            gpu
+Account:          default
+Nodes:      g03
+===================================================
+End TASK Prologue Thu Apr 23 08:42:19 PM EDT 2026
+===================================================
+Thu Apr 23 20:42:21 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.45.04              Driver Version: 595.45.04      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100 80GB PCIe          On  |   00000000:21:00.0 Off |                    0 |
+| N/A   28C    P0             43W /  300W |       0MiB /  81920MiB |      0%   E. Process |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA A100 80GB PCIe          On  |   00000000:81:00.0 Off |                    0 |
+| N/A   27C    P0             42W /  300W |       0MiB /  81920MiB |      0%   E. Process |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA A100 80GB PCIe          On  |   00000000:E2:00.0 Off |                    0 |
+| N/A   28C    P0             42W /  300W |       0MiB /  81920MiB |      0%   E. Process |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+OpenMM version: 8.5.1.dev-f7fa0c2
+Available OpenMM platforms:
+- Reference
+- CPU
+- CUDA
+- OpenCL
+CUDA platform available
+===================================================
+Begin TASK Epilogue Thu Apr 23 08:42:24 PM EDT 2026
+===================================================
+Job ID:           33590
+Username:         tuu61186
+Job Name:         test_openmm_cuda
+Resources List:   nodes=1:ppn=1:ntasks=
+Queue:            gpu
+Account:          default
+Nodes:      g03
+===================================================
+End TASK Epilogue Thu Apr 23 08:42:24 PM EDT 2026
+===================================================
